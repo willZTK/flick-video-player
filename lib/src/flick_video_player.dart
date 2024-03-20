@@ -195,13 +195,13 @@ class _FlickVideoPlayerState extends State<FlickVideoPlayer>
   }
 
   _setSystemUIOverlays() {
-    if (_isFullscreen) {
-      SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
-          overlays: widget.systemUIOverlayFullscreen);
-    } else {
-      SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
-          overlays: widget.systemUIOverlay);
-    }
+    // if (_isFullscreen) {
+    //   SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
+    //       overlays: widget.systemUIOverlayFullscreen);
+    // } else {
+    //   SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
+    //       overlays: widget.systemUIOverlay);
+    // }
   }
 
   void _webFullscreenListener(Event event) {
